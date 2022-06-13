@@ -1,0 +1,4 @@
+@W: CD638 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\01-key00\key00.vhdl":20:7:20:12|Signal outr00 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL279 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\01-key00\contring00.vhdl":19:2:19:3|Pruning register bits 2 to 0 of sshift(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

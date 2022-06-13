@@ -1,0 +1,86 @@
+[ START MERGED ]
+RA04/outcontRrd_26 re0_c
+re0_c_i re0_c
+[ END MERGED ]
+[ START CLIPPED ]
+RA00/C00/GND
+RA00/C01/GND
+RA02/GND
+RA04/GND
+RA00/C00/OSCInst0_SEDSTDBY
+RA00/C01/un1_sdiv_cry_0_0_S0
+RA00/C01/N_1
+RA00/C01/un1_sdiv_s_21_0_S1
+RA00/C01/un1_sdiv_s_21_0_COUT
+RA02/un1_outcontc_s_5_0_S1
+RA02/un1_outcontc_s_5_0_COUT
+RA02/un1_outcontc_cry_0_0_S0
+RA02/N_1
+RA03/swordram_ram_0_DO3
+RA03/swordram_ram_2_DO3
+RA03/swordram_ram_4_DO3
+RA03/swordram_ram_6_DO3
+RA04/un1_outcontRrd_cry_0_0_S0
+RA04/N_1
+RA04/un1_outcontRrd_s_5_0_S1
+RA04/un1_outcontRrd_s_5_0_COUT
+RA04/un1_outcontrrd_cry_0_0_S1
+RA04/un1_outcontrrd_cry_0_0_S0
+RA04/N_2
+RA04/un1_outcontrrd_cry_1_0_S1
+RA04/un1_outcontrrd_cry_1_0_S0
+RA04/un1_outcontrrd_cry_3_0_S1
+RA04/un1_outcontrrd_cry_3_0_S0
+RA04/un1_outcontrrd_cry_5_0_S0
+RA04/un1_outcontrrd_cry_5_0_COUT
+[ END CLIPPED ]
+[ START OSC ]
+RA00/clkaux 2.08
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.12.0.240.2 -- WARNING: Map write only section -- Mon May 02 22:04:48 2022
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "clk0" SITE "35" ;
+LOCATE COMP "cdiv0[0]" SITE "56" ;
+LOCATE COMP "outtransist0[3]" SITE "10" ;
+LOCATE COMP "outtransist0[2]" SITE "11" ;
+LOCATE COMP "outtransist0[1]" SITE "12" ;
+LOCATE COMP "outtransist0[0]" SITE "13" ;
+LOCATE COMP "outcoder0[6]" SITE "9" ;
+LOCATE COMP "outcoder0[5]" SITE "6" ;
+LOCATE COMP "outcoder0[4]" SITE "5" ;
+LOCATE COMP "outcoder0[3]" SITE "4" ;
+LOCATE COMP "outcoder0[2]" SITE "3" ;
+LOCATE COMP "outcoder0[1]" SITE "2" ;
+LOCATE COMP "outcoder0[0]" SITE "1" ;
+LOCATE COMP "outcontR0[5]" SITE "114" ;
+LOCATE COMP "outcontR0[4]" SITE "113" ;
+LOCATE COMP "outcontR0[3]" SITE "112" ;
+LOCATE COMP "outcontR0[2]" SITE "111" ;
+LOCATE COMP "outcontR0[1]" SITE "110" ;
+LOCATE COMP "outcontR0[0]" SITE "109" ;
+LOCATE COMP "outcontW0[5]" SITE "125" ;
+LOCATE COMP "outcontW0[4]" SITE "122" ;
+LOCATE COMP "outcontW0[3]" SITE "121" ;
+LOCATE COMP "outcontW0[2]" SITE "120" ;
+LOCATE COMP "outcontW0[1]" SITE "119" ;
+LOCATE COMP "outcontW0[0]" SITE "117" ;
+LOCATE COMP "outr0[3]" SITE "86" ;
+LOCATE COMP "outr0[2]" SITE "85" ;
+LOCATE COMP "outr0[1]" SITE "84" ;
+LOCATE COMP "outr0[0]" SITE "83" ;
+LOCATE COMP "inkey0[3]" SITE "94" ;
+LOCATE COMP "inkey0[2]" SITE "93" ;
+LOCATE COMP "inkey0[1]" SITE "92" ;
+LOCATE COMP "inkey0[0]" SITE "91" ;
+LOCATE COMP "rw0" SITE "48" ;
+LOCATE COMP "re0" SITE "47" ;
+LOCATE COMP "cdiv0[4]" SITE "50" ;
+LOCATE COMP "cdiv0[3]" SITE "52" ;
+LOCATE COMP "cdiv0[2]" SITE "54" ;
+LOCATE COMP "cdiv0[1]" SITE "55" ;
+FREQUENCY NET "RA00/clkaux" 2.080000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

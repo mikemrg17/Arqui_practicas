@@ -1,0 +1,11 @@
+#Start recording tcl command: 5/2/2022 19:44:26
+#Project Location: C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/04-rom00; Project name: rom00
+prj_project new -name "rom00" -impl "rom0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/02_osc00_VHDL/div00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/02_osc00_VHDL/osc00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/02_osc00_VHDL/oscint00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/02_osc00_VHDL/packageOsc00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/04-rom00/rom0/source"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/04-rom00/rom0/source/div00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/04-rom00/rom0/source/osc00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/04-rom00/rom0/source/oscint00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/04-rom00/rom0/source/packageOsc00.vhd"
+prj_project save
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/04-rom00/contRead00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/04-rom00/memrom00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 5/2/2022 20:01:55

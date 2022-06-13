@@ -1,0 +1,10 @@
+#Start recording tcl command: 5/8/2022 21:16:56
+#Project Location: C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/04-rom00; Project name: rom00
+prj_project open "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/04-rom00/rom00.ldf"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/04-rom00/packagerom00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/04-rom00/rom00.vhdl"
+prj_run Export -impl rom0 -task Jedecgen
+prj_run Export -impl rom0 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 5/9/2022 11:40:26

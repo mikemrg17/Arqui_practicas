@@ -1,0 +1,12 @@
+#Start recording tcl command: 2/23/2022 22:25:54
+#Project Location: C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/and00; Project name: and00
+prj_project new -name "and00" -impl "and0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/and00/and00.vhdl"
+prj_run Export -impl and0 -task Jedecgen
+prj_run Export -impl and0 -task Jedecgen
+pgr_project save "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/and00/and0/and0.xcf"
+prj_src add -exclude "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/and00/and0/and0.xcf"
+prj_src enable "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/and00/and0/and0.xcf"
+pgr_project close
+#Stop recording: 2/23/2022 23:16:03

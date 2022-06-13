@@ -1,0 +1,5 @@
+#Start recording tcl command: 3/2/2022 16:15:09
+#Project Location: C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder4bit00; Project name: adder4bit00
+prj_project open "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder4bit00/adder4bit00.ldf"
+pgr_project close
+#Stop recording: 3/2/2022 16:16:36

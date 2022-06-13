@@ -1,0 +1,1349 @@
+
+synpwrap -msg -prj "ram00_ram0_synplify.tcl" -log "ram00_ram0.srf"
+Copyright (C) 1992-2020 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.12.0.240.2
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+
+==contents of ram00_ram0.srf
+#Build: Synplify Pro (R) Q-2020.03L-SP1, Build 182R, Oct 29 2020
+#install: C:\lscc\diamond\3.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-VTJO39V
+
+# Mon May  2 22:04:27 2022
+
+#Implementation: ram0
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VTJO39V
+
+Implementation : ram0
+Synopsys HDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VTJO39V
+
+Implementation : ram0
+Synopsys VHDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram00.vhdl":9:7:9:11|Top entity is set to ram00.
+File C:\lscc\diamond\3.12\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\source\packageOsc00.vhd changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\source\oscint00.vhd changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\contring00.vhdl changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\coder00.vhdl changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\memram00.vhdl changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\contRead00.vhdl changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\packageram00.vhdl changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\muxram00.vhdl changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\source\osc00.vhd changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram00.vhdl changed - recompiling
+VHDL syntax check successful!
+File C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\coder00.vhdl changed - recompiling
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram00.vhdl":9:7:9:11|Synthesizing work.ram00.ram0.
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\muxram00.vhdl":8:7:8:14|Synthesizing work.muxram00.muxram0.
+Post processing for work.muxram00.muxram0
+Running optimization stage 1 on muxram00 .......
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\contRead00.vhdl":8:7:8:16|Synthesizing work.contread00.contread0.
+Post processing for work.contread00.contread0
+Running optimization stage 1 on contRead00 .......
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\memram00.vhdl":8:7:8:14|Synthesizing work.memram00.memram0.
+Post processing for work.memram00.memram0
+Running optimization stage 1 on memram00 .......
+@N: CL134 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\memram00.vhdl":21:7:21:14|Found RAM swordram, depth=64, width=7
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\coder00.vhdl":8:7:8:13|Synthesizing work.coder00.coder0.
+Post processing for work.coder00.coder0
+Running optimization stage 1 on coder00 .......
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+Running optimization stage 1 on contring00 .......
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\source\osc00.vhd":10:7:10:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\source\div00.vhd":9:7:9:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\source\div00.vhd":30:6:30:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\source\div00.vhd":39:6:39:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\source\div00.vhd":48:6:48:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\source\div00.vhd":57:6:57:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\source\div00.vhd":66:6:66:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\source\div00.vhd":75:6:75:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\source\div00.vhd":84:6:84:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\source\div00.vhd":93:6:93:11|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\source\oscint00.vhd":8:7:8:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.ram00.ram0
+Running optimization stage 1 on ram00 .......
+Running optimization stage 2 on oscint00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on contring00 .......
+Running optimization stage 2 on coder00 .......
+Running optimization stage 2 on memram00 .......
+Running optimization stage 2 on contRead00 .......
+Running optimization stage 2 on muxram00 .......
+Running optimization stage 2 on ram00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 99MB peak: 101MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May  2 22:04:31 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VTJO39V
+
+Implementation : ram0
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+File C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May  2 22:04:32 2022
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\synwork\ram00_ram0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May  2 22:04:32 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VTJO39V
+
+Implementation : ram0
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+File C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\synwork\ram00_ram0_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May  2 22:04:33 2022
+
+###########################################################]
+Premap Report
+
+# Mon May  2 22:04:34 2022
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VTJO39V
+
+Implementation : ram0
+Synopsys Lattice Technology Pre-mapping, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\ram00_ram0_scck.rpt 
+See clock summary report "C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\ram00_ram0_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 138MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@N: FX493 |Applying initial value "0" on instance aux1.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance aux2.
+@N: FX493 |Applying initial value "0" on instance aux3.
+@N: FX493 |Applying initial value "0" on instance aux0.
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=26 on top level netlist ram00 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 171MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                Requested     Requested     Clock                                               Clock                   Clock
+Level     Clock                                Frequency     Period        Type                                                Group                   Load 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       oscint00|osc_int0_inferred_clock     2.1 MHz       480.769       inferred                                            Inferred_clkgroup_0     23   
+1 .         div00|oscOut_derived_clock         2.1 MHz       480.769       derived (from oscint00|osc_int0_inferred_clock)     Inferred_clkgroup_0     45   
+============================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                     Clock     Source                          Clock Pin                  Non-clock Pin     Non-clock Pin
+Clock                                Load      Pin                             Seq Example                Seq Example       Comb Example 
+-----------------------------------------------------------------------------------------------------------------------------------------
+oscint00|osc_int0_inferred_clock     23        RA00.C00.OSCInst0.OSC(OSCH)     RA00.C01.oscOut.C          -                 -            
+div00|oscOut_derived_clock           45        RA00.C01.oscOut.Q[0](dffe)      RA04.outcontRrd[5:0].C     -                 -            
+=========================================================================================================================================
+
+@W: MT529 :"c:\users\migue\onedrive\documentos\adc\10-tareas-relacion-2doparcial\03-practicas\03-ram00\ram0\source\div00.vhd":22:2:22:3|Found inferred clock oscint00|osc_int0_inferred_clock which controls 23 sequential elements including RA00.C01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 23 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 39 clock pin(s) of sequential element(s)
+0 instances converted, 39 sequential instances remain driven by gated/generated clocks
+
+================================ Non-Gated/Non-Generated Clocks =================================
+Clock Tree ID     Driving Element           Drive Element Type     Fanout     Sample Instance    
+-------------------------------------------------------------------------------------------------
+@KP:ckid0_2       RA00.C00.OSCInst0.OSC     OSCH                   23         RA00.C01.sdiv[21:0]
+=================================================================================================
+================================================================== Gated/Generated Clocks ==================================================================
+Clock Tree ID     Driving Element          Drive Element Type     Unconverted Fanout     Sample Instance          Explanation                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       RA00.C01.oscOut.Q[0]     dffe                   39                     RA04.outcontRrd[5:0]     Derived clock on input (not legal for GCC)
+============================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 91MB peak: 173MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Mon May  2 22:04:37 2022
+
+###########################################################]
+Map & Optimize Report
+
+# Mon May  2 22:04:37 2022
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VTJO39V
+
+Implementation : ram0
+Synopsys Lattice Technology Mapper, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 128MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 128MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 182MB peak: 182MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		   468.82ns		 108 /        61
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 182MB peak: 183MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"c:\users\migue\onedrive\documentos\adc\10-tareas-relacion-2doparcial\03-practicas\03-ram00\memram00.vhdl":21:7:21:14|Generating RAM RA03.swordram[6:0]
+@A: BN291 :"c:\users\migue\onedrive\documentos\adc\10-tareas-relacion-2doparcial\03-practicas\03-ram00\contring00.vhdl":24:2:24:3|Boundary register RA01.outr_3_.fb (in view: work.ram00(ram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\migue\onedrive\documentos\adc\10-tareas-relacion-2doparcial\03-practicas\03-ram00\contring00.vhdl":24:2:24:3|Boundary register RA01.outr_2_.fb (in view: work.ram00(ram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\migue\onedrive\documentos\adc\10-tareas-relacion-2doparcial\03-practicas\03-ram00\contring00.vhdl":24:2:24:3|Boundary register RA01.outr_1_.fb (in view: work.ram00(ram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\migue\onedrive\documentos\adc\10-tareas-relacion-2doparcial\03-practicas\03-ram00\contring00.vhdl":24:2:24:3|Boundary register RA01.outr_0_.fb (in view: work.ram00(ram0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 183MB peak: 183MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 183MB)
+
+Writing Analyst data base C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\synwork\ram00_ram0_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 183MB peak: 183MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\03-ram00\ram0\ram00_ram0.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 187MB peak: 187MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 186MB peak: 188MB)
+
+@W: MT420 |Found inferred clock oscint00|osc_int0_inferred_clock with period 480.77ns. Please declare a user-defined clock on net RA00.C00.clkaux.
+@N: MT615 |Found clock div00|oscOut_derived_clock with period 480.77ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon May  2 22:04:43 2022
+#
+
+
+Top view:               ram00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 467.629
+
+                                     Requested     Estimated     Requested     Estimated                 Clock                                               Clock              
+Starting Clock                       Frequency     Frequency     Period        Period        Slack       Type                                                Group              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+div00|oscOut_derived_clock           2.1 MHz       199.6 MHz     480.769       5.010         951.518     derived (from oscint00|osc_int0_inferred_clock)     Inferred_clkgroup_0
+oscint00|osc_int0_inferred_clock     2.1 MHz       76.1 MHz      480.769       13.140        467.629     inferred                                            Inferred_clkgroup_0
+================================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                              |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                          Ending                            |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+oscint00|osc_int0_inferred_clock  oscint00|osc_int0_inferred_clock  |  480.769     467.629  |  No paths    -      |  No paths    -      |  No paths    -    
+div00|oscOut_derived_clock        div00|oscOut_derived_clock        |  480.769     951.518  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: div00|oscOut_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                              Arrival            
+Instance               Reference                      Type        Pin     Net                Time        Slack  
+                       Clock                                                                                    
+----------------------------------------------------------------------------------------------------------------
+RA01.outr[2]           div00|oscOut_derived_clock     FD1P3IX     Q       outr0_c[2]         1.244       951.518
+RA01.outr[1]           div00|oscOut_derived_clock     FD1P3IX     Q       outr0_c[1]         1.236       951.526
+RA01.outr[0]           div00|oscOut_derived_clock     FD1P3IX     Q       outr0_c[0]         1.228       951.534
+RA01.outr[3]           div00|oscOut_derived_clock     FD1P3IX     Q       outr0_c[3]         1.228       951.534
+RA04.outcontRrd[0]     div00|oscOut_derived_clock     FD1S3IX     Q       outcontR0_c[0]     1.236       952.422
+RA02.outcontc[0]       div00|oscOut_derived_clock     FD1S3IX     Q       outcontW0_c[0]     1.236       952.422
+RA04.outcontRrd[1]     div00|oscOut_derived_clock     FD1S3IX     Q       outcontR0_c[1]     1.236       952.565
+RA04.outcontRrd[2]     div00|oscOut_derived_clock     FD1S3IX     Q       outcontR0_c[2]     1.236       952.565
+RA02.outcontc[1]       div00|oscOut_derived_clock     FD1S3IX     Q       outcontW0_c[1]     1.236       952.565
+RA02.outcontc[2]       div00|oscOut_derived_clock     FD1S3IX     Q       outcontW0_c[2]     1.236       952.565
+================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                                         Required            
+Instance               Reference                      Type        Pin     Net                           Time         Slack  
+                       Clock                                                                                                
+----------------------------------------------------------------------------------------------------------------------------
+RA02.outcontc[5]       div00|oscOut_derived_clock     FD1S3IX     D       outcontc_12[5]                961.433      951.518
+RA02.outcontc[3]       div00|oscOut_derived_clock     FD1S3IX     D       outcontc_12[3]                961.433      951.661
+RA02.outcontc[4]       div00|oscOut_derived_clock     FD1S3IX     D       outcontc_12[4]                961.433      951.661
+RA02.outcontc[1]       div00|oscOut_derived_clock     FD1S3IX     D       outcontc_12[1]                961.433      951.803
+RA02.outcontc[2]       div00|oscOut_derived_clock     FD1S3IX     D       outcontc_12[2]                961.433      951.803
+RA04.outcontRrd[5]     div00|oscOut_derived_clock     FD1S3IX     D       un1_outcontRrd_s_5_0_S0       961.433      952.422
+RA04.outcontRrd[3]     div00|oscOut_derived_clock     FD1S3IX     D       un1_outcontRrd_cry_3_0_S0     961.433      952.565
+RA04.outcontRrd[4]     div00|oscOut_derived_clock     FD1S3IX     D       un1_outcontRrd_cry_3_0_S1     961.433      952.565
+RA04.outcontRrd[1]     div00|oscOut_derived_clock     FD1S3IX     D       un1_outcontRrd_cry_1_0_S0     961.433      952.708
+RA04.outcontRrd[2]     div00|oscOut_derived_clock     FD1S3IX     D       un1_outcontRrd_cry_1_0_S1     961.433      952.708
+============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      961.538
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         961.433
+
+    - Propagation time:                      9.915
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 951.518
+
+    Number of logic level(s):                9
+    Starting point:                          RA01.outr[2] / Q
+    Ending point:                            RA02.outcontc[5] / D
+    The start point is clocked by            div00|oscOut_derived_clock [rising] (rise=0.000 fall=240.385 period=480.769) on pin CK
+    The end   point is clocked by            div00|oscOut_derived_clock [rising] (rise=0.000 fall=240.385 period=480.769) on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:div00|oscOut_derived_clock to c:div00|oscOut_derived_clock)
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+RA01.outr[2]                      FD1P3IX      Q        Out     1.244     1.244 r     -         
+outr0_c[2]                        Net          -        -       -         -           12        
+RA02.pcoder\.aux026               ORCALUT4     C        In      0.000     1.244 r     -         
+RA02.pcoder\.aux026               ORCALUT4     Z        Out     1.153     2.397 f     -         
+aux026                            Net          -        -       -         -           3         
+RA02.outcoder_0_sqmuxa_2          ORCALUT4     B        In      0.000     2.397 f     -         
+RA02.outcoder_0_sqmuxa_2          ORCALUT4     Z        Out     1.017     3.413 f     -         
+outcoder_0_sqmuxa_2               Net          -        -       -         -           1         
+RA02.un1_aux028_1                 ORCALUT4     B        In      0.000     3.413 f     -         
+RA02.un1_aux028_1                 ORCALUT4     Z        Out     1.017     4.430 f     -         
+un1_aux028_1                      Net          -        -       -         -           1         
+RA02.un1_aux028                   ORCALUT4     D        In      0.000     4.430 f     -         
+RA02.un1_aux028                   ORCALUT4     Z        Out     1.089     5.519 f     -         
+un1_aux028                        Net          -        -       -         -           2         
+RA02.un1_outcontc_cry_0_0_RNO     ORCALUT4     B        In      0.000     5.519 f     -         
+RA02.un1_outcontc_cry_0_0_RNO     ORCALUT4     Z        Out     1.017     6.536 r     -         
+un1_aux034_2_i                    Net          -        -       -         -           1         
+RA02.un1_outcontc_cry_0_0         CCU2D        B0       In      0.000     6.536 r     -         
+RA02.un1_outcontc_cry_0_0         CCU2D        COUT     Out     1.544     8.080 r     -         
+un1_outcontc_cry_0                Net          -        -       -         -           1         
+RA02.un1_outcontc_cry_1_0         CCU2D        CIN      In      0.000     8.080 r     -         
+RA02.un1_outcontc_cry_1_0         CCU2D        COUT     Out     0.143     8.223 r     -         
+un1_outcontc_cry_2                Net          -        -       -         -           1         
+RA02.un1_outcontc_cry_3_0         CCU2D        CIN      In      0.000     8.223 r     -         
+RA02.un1_outcontc_cry_3_0         CCU2D        COUT     Out     0.143     8.366 r     -         
+un1_outcontc_cry_4                Net          -        -       -         -           1         
+RA02.un1_outcontc_s_5_0           CCU2D        CIN      In      0.000     8.366 r     -         
+RA02.un1_outcontc_s_5_0           CCU2D        S0       Out     1.549     9.915 r     -         
+outcontc_12[5]                    Net          -        -       -         -           1         
+RA02.outcontc[5]                  FD1S3IX      D        In      0.000     9.915 r     -         
+================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: oscint00|osc_int0_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                             Arrival            
+Instance             Reference                            Type        Pin     Net         Time        Slack  
+                     Clock                                                                                   
+-------------------------------------------------------------------------------------------------------------
+RA00.C01.sdiv[0]     oscint00|osc_int0_inferred_clock     FD1S3IX     Q       sdiv[0]     1.044       467.629
+RA00.C01.sdiv[1]     oscint00|osc_int0_inferred_clock     FD1S3IX     Q       sdiv[1]     1.044       467.629
+RA00.C01.sdiv[2]     oscint00|osc_int0_inferred_clock     FD1S3IX     Q       sdiv[2]     1.044       467.629
+RA00.C01.sdiv[3]     oscint00|osc_int0_inferred_clock     FD1S3IX     Q       sdiv[3]     1.044       467.629
+RA00.C01.sdiv[4]     oscint00|osc_int0_inferred_clock     FD1S3IX     Q       sdiv[4]     1.044       467.629
+RA00.C01.sdiv[5]     oscint00|osc_int0_inferred_clock     FD1S3IX     Q       sdiv[5]     1.044       467.629
+RA00.C01.sdiv[6]     oscint00|osc_int0_inferred_clock     FD1S3IX     Q       sdiv[6]     1.044       467.629
+RA00.C01.sdiv[7]     oscint00|osc_int0_inferred_clock     FD1S3IX     Q       sdiv[7]     1.044       467.629
+RA00.C01.sdiv[8]     oscint00|osc_int0_inferred_clock     FD1S3IX     Q       sdiv[8]     1.108       468.445
+RA00.C01.sdiv[9]     oscint00|osc_int0_inferred_clock     FD1S3IX     Q       sdiv[9]     1.108       468.445
+=============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                                 Required            
+Instance              Reference                            Type        Pin     Net             Time         Slack  
+                      Clock                                                                                        
+-------------------------------------------------------------------------------------------------------------------
+RA00.C01.sdiv[21]     oscint00|osc_int0_inferred_clock     FD1S3IX     D       sdiv_11[21]     480.664      467.629
+RA00.C01.sdiv[19]     oscint00|osc_int0_inferred_clock     FD1S3IX     D       sdiv_11[19]     480.664      467.772
+RA00.C01.sdiv[20]     oscint00|osc_int0_inferred_clock     FD1S3IX     D       sdiv_11[20]     480.664      467.772
+RA00.C01.sdiv[17]     oscint00|osc_int0_inferred_clock     FD1S3IX     D       sdiv_11[17]     480.664      467.914
+RA00.C01.sdiv[18]     oscint00|osc_int0_inferred_clock     FD1S3IX     D       sdiv_11[18]     480.664      467.914
+RA00.C01.sdiv[15]     oscint00|osc_int0_inferred_clock     FD1S3IX     D       sdiv_11[15]     480.664      468.057
+RA00.C01.sdiv[16]     oscint00|osc_int0_inferred_clock     FD1S3IX     D       sdiv_11[16]     480.664      468.057
+RA00.C01.sdiv[13]     oscint00|osc_int0_inferred_clock     FD1S3IX     D       sdiv_11[13]     480.664      468.200
+RA00.C01.sdiv[14]     oscint00|osc_int0_inferred_clock     FD1S3IX     D       sdiv_11[14]     480.664      468.200
+RA00.C01.sdiv[11]     oscint00|osc_int0_inferred_clock     FD1S3IX     D       sdiv_11[11]     480.664      468.343
+===================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      13.035
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     467.629
+
+    Number of logic level(s):                19
+    Starting point:                          RA00.C01.sdiv[0] / Q
+    Ending point:                            RA00.C01.sdiv[21] / D
+    The start point is clocked by            oscint00|osc_int0_inferred_clock [rising] (rise=0.000 fall=240.385 period=480.769) on pin CK
+    The end   point is clocked by            oscint00|osc_int0_inferred_clock [rising] (rise=0.000 fall=240.385 period=480.769) on pin CK
+
+Instance / Net                                          Pin      Pin               Arrival      No. of    
+Name                                       Type         Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+RA00.C01.sdiv[0]                           FD1S3IX      Q        Out     1.044     1.044 r      -         
+sdiv[0]                                    Net          -        -       -         -            2         
+RA00.C01.pdiv\.oscout12lto19_i_a2_16_5     ORCALUT4     A        In      0.000     1.044 r      -         
+RA00.C01.pdiv\.oscout12lto19_i_a2_16_5     ORCALUT4     Z        Out     1.089     2.133 f      -         
+oscout12lto19_i_a2_16_5                    Net          -        -       -         -            2         
+RA00.C01.pdiv\.oscout12lto19_i_a2_16       ORCALUT4     B        In      0.000     2.133 f      -         
+RA00.C01.pdiv\.oscout12lto19_i_a2_16       ORCALUT4     Z        Out     1.153     3.285 f      -         
+N_24_9                                     Net          -        -       -         -            3         
+RA00.C01.pdiv\.oscout44lto14_i_a2          ORCALUT4     B        In      0.000     3.285 f      -         
+RA00.C01.pdiv\.oscout44lto14_i_a2          ORCALUT4     Z        Out     1.017     4.302 f      -         
+N_18                                       Net          -        -       -         -            1         
+RA00.C01.pdiv\.oscout44lto21               ORCALUT4     A        In      0.000     4.302 f      -         
+RA00.C01.pdiv\.oscout44lto21               ORCALUT4     Z        Out     1.017     5.319 r      -         
+oscout44                                   Net          -        -       -         -            1         
+RA00.C01.un1_oscout73_1                    ORCALUT4     B        In      0.000     5.319 r      -         
+RA00.C01.un1_oscout73_1                    ORCALUT4     Z        Out     1.089     6.408 r      -         
+un1_oscout73_1                             Net          -        -       -         -            2         
+RA00.C01.un1_oscout73_2_0                  ORCALUT4     C        In      0.000     6.408 r      -         
+RA00.C01.un1_oscout73_2_0                  ORCALUT4     Z        Out     1.089     7.497 r      -         
+un1_oscout73_2_0                           Net          -        -       -         -            2         
+RA00.C01.un1_sdiv_cry_0_0_RNO              ORCALUT4     A        In      0.000     7.497 r      -         
+RA00.C01.un1_sdiv_cry_0_0_RNO              ORCALUT4     Z        Out     1.017     8.513 f      -         
+un1_oscout73_i                             Net          -        -       -         -            1         
+RA00.C01.un1_sdiv_cry_0_0                  CCU2D        B0       In      0.000     8.513 f      -         
+RA00.C01.un1_sdiv_cry_0_0                  CCU2D        COUT     Out     1.544     10.058 r     -         
+un1_sdiv_cry_0                             Net          -        -       -         -            1         
+RA00.C01.un1_sdiv_cry_1_0                  CCU2D        CIN      In      0.000     10.058 r     -         
+RA00.C01.un1_sdiv_cry_1_0                  CCU2D        COUT     Out     0.143     10.201 r     -         
+un1_sdiv_cry_2                             Net          -        -       -         -            1         
+RA00.C01.un1_sdiv_cry_3_0                  CCU2D        CIN      In      0.000     10.201 r     -         
+RA00.C01.un1_sdiv_cry_3_0                  CCU2D        COUT     Out     0.143     10.344 r     -         
+un1_sdiv_cry_4                             Net          -        -       -         -            1         
+RA00.C01.un1_sdiv_cry_5_0                  CCU2D        CIN      In      0.000     10.344 r     -         
+RA00.C01.un1_sdiv_cry_5_0                  CCU2D        COUT     Out     0.143     10.486 r     -         
+un1_sdiv_cry_6                             Net          -        -       -         -            1         
+RA00.C01.un1_sdiv_cry_7_0                  CCU2D        CIN      In      0.000     10.486 r     -         
+RA00.C01.un1_sdiv_cry_7_0                  CCU2D        COUT     Out     0.143     10.629 r     -         
+un1_sdiv_cry_8                             Net          -        -       -         -            1         
+RA00.C01.un1_sdiv_cry_9_0                  CCU2D        CIN      In      0.000     10.629 r     -         
+RA00.C01.un1_sdiv_cry_9_0                  CCU2D        COUT     Out     0.143     10.772 r     -         
+un1_sdiv_cry_10                            Net          -        -       -         -            1         
+RA00.C01.un1_sdiv_cry_11_0                 CCU2D        CIN      In      0.000     10.772 r     -         
+RA00.C01.un1_sdiv_cry_11_0                 CCU2D        COUT     Out     0.143     10.915 r     -         
+un1_sdiv_cry_12                            Net          -        -       -         -            1         
+RA00.C01.un1_sdiv_cry_13_0                 CCU2D        CIN      In      0.000     10.915 r     -         
+RA00.C01.un1_sdiv_cry_13_0                 CCU2D        COUT     Out     0.143     11.057 r     -         
+un1_sdiv_cry_14                            Net          -        -       -         -            1         
+RA00.C01.un1_sdiv_cry_15_0                 CCU2D        CIN      In      0.000     11.057 r     -         
+RA00.C01.un1_sdiv_cry_15_0                 CCU2D        COUT     Out     0.143     11.200 r     -         
+un1_sdiv_cry_16                            Net          -        -       -         -            1         
+RA00.C01.un1_sdiv_cry_17_0                 CCU2D        CIN      In      0.000     11.200 r     -         
+RA00.C01.un1_sdiv_cry_17_0                 CCU2D        COUT     Out     0.143     11.343 r     -         
+un1_sdiv_cry_18                            Net          -        -       -         -            1         
+RA00.C01.un1_sdiv_cry_19_0                 CCU2D        CIN      In      0.000     11.343 r     -         
+RA00.C01.un1_sdiv_cry_19_0                 CCU2D        COUT     Out     0.143     11.486 r     -         
+un1_sdiv_cry_20                            Net          -        -       -         -            1         
+RA00.C01.un1_sdiv_s_21_0                   CCU2D        CIN      In      0.000     11.486 r     -         
+RA00.C01.un1_sdiv_s_21_0                   CCU2D        S0       Out     1.549     13.035 r     -         
+sdiv_11[21]                                Net          -        -       -         -            1         
+RA00.C01.sdiv[21]                          FD1S3IX      D        In      0.000     13.035 r     -         
+==========================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 187MB peak: 188MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 187MB peak: 188MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-5
+
+Register bits: 61 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       39
+
+
+Details:
+CCU2D:          24
+DPR16X4C:       8
+FD1P3AX:        10
+FD1P3IX:        7
+FD1P3JX:        8
+FD1S3AX:        2
+FD1S3IX:        34
+GSR:            1
+IB:             11
+INV:            2
+OB:             28
+ORCALUT4:       121
+OSCH:           1
+PFUMX:          7
+PUR:            1
+VHI:            6
+VLO:            8
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory used current: 65MB peak: 188MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:04s cputime
+# Mon May  2 22:04:44 2022
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
+edif2ngd  -l "MachXO2" -d LCMXO2-7000HE -path "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/ram0" -path "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00"   "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/ram0/ram00_ram0.edi" "ram00_ram0.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to ram00_ram0.ngo...
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 11 MB
+
+
+ngdbuild  -a "MachXO2" -d LCMXO2-7000HE  -p "C:/lscc/diamond/3.12/ispfpga/xo2c00/data"  -p "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/ram0" -p "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00"  "ram00_ram0.ngo" "ram00_ram0.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'ram00_ram0.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="RA00/C00/OSCInst0_SEDSTDBY" arg2="RA00/C00/OSCInst0_SEDSTDBY"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="RA03/swordram_ram_6_DO3" arg2="RA03/swordram_ram_6_DO3"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="RA03/swordram_ram_4_DO3" arg2="RA03/swordram_ram_4_DO3"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="RA03/swordram_ram_2_DO3" arg2="RA03/swordram_ram_2_DO3"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="RA03/swordram_ram_0_DO3" arg2="RA03/swordram_ram_0_DO3"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="5"  />
+
+Design Results:
+    278 blocks expanded
+Complete the first expansion.
+Writing 'ram00_ram0.ngd' ...
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 18 MB
+
+
+map -a "MachXO2" -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial   "ram00_ram0.ngd" -o "ram00_ram0_map.ncd" -pr "ram00_ram0.prf" -mp "ram00_ram0.mrp" -lpf "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/ram0/ram00_ram0_synplify.lpf" -lpf "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/ram00.lpf"  -c 0           
+map:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: ram00_ram0.ngd
+   Picdevice="LCMXO2-7000HE"
+
+   Pictype="TQFP144"
+
+   Picspeed=5
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-7000HETQFP144, Performance used: 5.
+
+Loading device for application map from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.39.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+
+
+
+Design Summary:
+   Number of registers:     61 out of  7209 (1%)
+      PFU registers:           61 out of  6864 (1%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:       110 out of  3432 (3%)
+      SLICEs as Logic/ROM:     86 out of  3432 (3%)
+      SLICEs as RAM:           24 out of  2574 (1%)
+      SLICEs as Carry:         24 out of  3432 (1%)
+   Number of LUT4s:        219 out of  6864 (3%)
+      Number used as logic LUTs:        123
+      Number used as distributed RAM:    48
+      Number used as ripple logic:       48
+      Number used as shift registers:     0
+   Number of PIO sites used: 39 + 4(JTAG) out of 115 (37%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : Yes
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  2
+     Net clk0_c: 43 loads, 43 rising, 0 falling (Driver: RA00/C01/oscOut )
+     Net RA00/clkaux: 13 loads, 13 rising, 0 falling (Driver: RA00/C00/OSCInst0 )
+   Number of Clock Enables:  6
+     Net RA02.pcoder.aux033_i: 7 loads, 7 LSLICEs
+     Net RA02/un1_aux033_3: 1 loads, 1 LSLICEs
+     Net RA02/un1_aux033_4_i: 4 loads, 4 LSLICEs
+     Net RA02/un1_aux033_1: 1 loads, 1 LSLICEs
+     Net RA02/un1_aux033_2: 1 loads, 1 LSLICEs
+     Net RA01/un1_rwr_1: 4 loads, 4 LSLICEs
+   Number of LSRs:  3
+     Net re0_c: 15 loads, 15 LSLICEs
+     Net RA02.pcoder.aux031: 4 loads, 4 LSLICEs
+     Net RA00/C01/un1_oscout73_2_0_RNIO8MO: 12 loads, 12 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net re0_c: 34 loads
+     Net outcontR0_c[0]: 31 loads
+     Net outcontR0_c[1]: 31 loads
+     Net outcontR0_c[2]: 31 loads
+     Net outcontR0_c[3]: 31 loads
+     Net rw0_c: 25 loads
+     Net outcontR0_c[5]: 17 loads
+     Net outr0_c[2]: 12 loads
+     Net RA00/C01/un1_oscout73_2_0_RNIO8MO: 12 loads
+     Net outcontW0_c[1]: 11 loads
+ 
+
+   Number of warnings:  0
+   Number of errors:    0
+
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 59 MB
+
+Dumping design to file ram00_ram0_map.ncd.
+
+mpartrce -p "ram00_ram0.p2t" -f "ram00_ram0.p3t" -tf "ram00_ram0.pt" "ram00_ram0_map.ncd" "ram00_ram0.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "ram00_ram0_map.ncd"
+Mon May 02 22:04:49 2022
+
+PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF:parASE=1 ram00_ram0_map.ncd ram00_ram0.dir/5_1.ncd ram00_ram0.prf
+Preference file: ram00_ram0.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file ram00_ram0_map.ncd.
+Design name: ram00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   39+4(JTAG)/336     13% used
+                  39+4(JTAG)/115     37% bonded
+
+   SLICE            110/3432          3% used
+
+   OSC                1/1           100% used
+
+
+Number of Signals: 332
+Number of Connections: 967
+
+Pin Constraint Summary:
+   39 out of 39 pins locked (100% locked).
+
+The following 2 signals are selected to use the primary clock routing resources:
+    clk0_c (driver: RA00/C01/SLICE_54, clk load #: 43)
+    RA00/clkaux (driver: RA00/C00/OSCInst0, clk load #: 13)
+
+
+The following 2 signals are selected to use the secondary clock routing resources:
+    re0_c (driver: re0, clk load #: 0, sr load #: 15, ce load #: 0)
+    RA00/C01/un1_oscout73_2_0_RNIO8MO (driver: RA00/C01/SLICE_69, clk load #: 0, sr load #: 12, ce load #: 0)
+
+    <postMsg mid="61061008" type="Warning" dynamic="5" navigation="0" arg0="re0_c" arg1="Secondary" arg2="re0" arg3="47" arg4="Secondary"  />
+No signal is selected as Global Set/Reset.
+Starting Placer Phase 0.
+.....
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+..................
+Placer score = 61938.
+Finished Placer Phase 1.  REAL time: 9 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  61452
+Finished Placer Phase 2.  REAL time: 9 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  General PIO: 1 out of 336 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Global Clocks:
+  PRIMARY "clk0_c" from Q0 on comp "RA00/C01/SLICE_54" on site "R2C19A", clk load = 43
+  PRIMARY "RA00/clkaux" from OSC on comp "RA00/C00/OSCInst0" on site "OSC", clk load = 13
+  SECONDARY "re0_c" from comp "re0" on PIO site "47 (PB13A)", clk load = 0, ce load = 0, sr load = 15
+  SECONDARY "RA00/C01/un1_oscout73_2_0_RNIO8MO" from F0 on comp "RA00/C01/SLICE_69" on site "R14C18A", clk load = 0, ce load = 0, sr load = 12
+
+  PRIMARY  : 2 out of 8 (25%)
+  SECONDARY: 2 out of 8 (25%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   39 + 4(JTAG) out of 336 (12.8%) PIO sites used.
+   39 + 4(JTAG) out of 115 (37.4%) bonded PIO sites used.
+   Number of PIO comps: 39; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 12 / 28 ( 42%) | 2.5V       | -         |
+| 1        | 8 / 29 ( 27%)  | 2.5V       | -         |
+| 2        | 7 / 29 ( 24%)  | 2.5V       | -         |
+| 3        | 1 / 9 ( 11%)   | 2.5V       | -         |
+| 4        | 1 / 10 ( 10%)  | 2.5V       | -         |
+| 5        | 10 / 10 (100%) | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 8 secs 
+
+Dumping design to file ram00_ram0.dir/5_1.ncd.
+
+0 connections routed; 967 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 13 secs 
+
+Start NBR router at 22:05:02 05/02/22
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 22:05:02 05/02/22
+
+Start NBR section for initial routing at 22:05:02 05/02/22
+Level 4, iteration 1
+21(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 466.385ns/0.000ns; real time: 14 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 22:05:03 05/02/22
+Level 4, iteration 1
+9(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 466.385ns/0.000ns; real time: 14 secs 
+Level 4, iteration 2
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 466.385ns/0.000ns; real time: 14 secs 
+Level 4, iteration 3
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 466.385ns/0.000ns; real time: 14 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 22:05:03 05/02/22
+
+Start NBR section for re-routing at 22:05:03 05/02/22
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 466.385ns/0.000ns; real time: 14 secs 
+
+Start NBR section for post-routing at 22:05:03 05/02/22
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 466.385ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 13 secs 
+Total REAL time: 15 secs 
+Completely routed.
+End of route.  967 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file ram00_ram0.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 466.385
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.379
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 13 secs 
+Total REAL time to completion: 15 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+trce -f "ram00_ram0.pt" -o "ram00_ram0.twr" "ram00_ram0.ncd" "ram00_ram0.prf"
+trce:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file ram00_ram0.ncd.
+Design name: ram00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application trce from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
+Mon May 02 22:05:07 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o ram00_ram0.twr -gui -msgset C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/promote.xml ram00_ram0.ncd ram00_ram0.prf 
+Design file:     ram00_ram0.ncd
+Preference file: ram00_ram0.prf
+Device,speed:    LCMXO2-7000HE,5
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 5930 paths, 1 nets, and 705 connections (72.91% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
+Mon May 02 22:05:07 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o ram00_ram0.twr -gui -msgset C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/promote.xml ram00_ram0.ncd ram00_ram0.prf 
+Design file:     ram00_ram0.ncd
+Preference file: ram00_ram0.prf
+Device,speed:    LCMXO2-7000HE,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 5930 paths, 1 nets, and 705 connections (72.91% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Total CPU Time: 1 secs 
+Total REAL Time: 3 secs 
+Peak Memory Usage: 67 MB
+
+
+tmcheck -par "ram00_ram0.par" 
+
+bitgen -f "ram00_ram0.t2b" -w "ram00_ram0.ncd"  -jedec "ram00_ram0.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.12.0.240.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file ram00_ram0.ncd.
+Design name: ram00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application Bitgen from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from ram00_ram0.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.95.
+ 
+Saving bit stream in "ram00_ram0.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        2046 Pages (128*2046 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory: 2046 Pages (Page 0 to Page 2045).
+Initialized UFM Pages:                     0 Page.
+ 
+Total CPU Time: 4 secs 
+Total REAL Time: 5 secs 
+Peak Memory Usage: 290 MB

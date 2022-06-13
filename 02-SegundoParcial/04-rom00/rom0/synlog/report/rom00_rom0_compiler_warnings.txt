@@ -1,0 +1,3 @@
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL279 :"C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\04-rom00\contRead00.vhdl":21:2:21:3|Pruning register bits 5 to 4 of outcontrd(5 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

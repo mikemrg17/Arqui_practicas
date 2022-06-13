@@ -1,0 +1,84 @@
+---------------------------------------------------
+Report for cell key02
+   Instance path: key02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      74.00        100.0
+                                 IOLGC	       4.00        100.0
+                                  LUT4	     123.00        100.0
+                                 IOREG	          4        100.0
+                                 IOBUF	         58        100.0
+                                PFUREG	         68        100.0
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1        46.4
+                                lect00	          1        10.4
+                        contring7seg00	          1         1.4
+                           coder7seg00	          1        22.6
+                            contring00	          1         1.6
+                               coder00	          1        17.7
+---------------------------------------------------
+Report for cell coder7seg00
+   Instance path: key02/K0205
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.75        22.6
+                                  LUT4	      45.00        36.6
+---------------------------------------------------
+Report for cell contring7seg00
+   Instance path: key02/K0204
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         1.4
+                                PFUREG	          4         5.9
+---------------------------------------------------
+Report for cell lect00
+   Instance path: key02/K0203
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.67        10.4
+                                  LUT4	       2.00         1.6
+                                PFUREG	         28        41.2
+---------------------------------------------------
+Report for cell coder00
+   Instance path: key02/K0202
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.08        17.7
+                                  LUT4	      27.00        22.0
+                                PFUREG	          9        13.2
+---------------------------------------------------
+Report for cell contring00
+   Instance path: key02/K0201
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.17         1.6
+                                PFUREG	          4         5.9
+---------------------------------------------------
+Report for cell osc00
+   Instance path: key02/K0200
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.33        46.4
+                                  LUT4	      49.00        39.8
+                                PFUREG	         23        33.8
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              oscint00	          1         0.0
+                                 div00	          1        46.4
+---------------------------------------------------
+Report for cell div00
+   Instance path: key02/K0200/C01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.33        46.4
+                                  LUT4	      49.00        39.8
+                                PFUREG	         23        33.8
+                                RIPPLE	         12        100.0
+---------------------------------------------------
+Report for cell oscint00
+   Instance path: key02/K0200/C00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

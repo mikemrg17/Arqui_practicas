@@ -1,0 +1,8 @@
+#Start recording tcl command: 5/30/2022 12:42:50
+#Project Location: C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/03-fsmmoore00; Project name: fsmmoore00
+prj_project open "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/03-fsmmoore00/fsmmoore00.ldf"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/03-fsmmoore00/packagefsm00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/03-fsmmoore00/fsmmoore00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 5/30/2022 14:11:11

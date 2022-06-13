@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  key00  -multisrs  C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\01-key00\key0\synwork\key00_key0_comp.srs  -osyn  C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\01-key00\key0\synwork\key00_key0_mult.srs  -log  C:\Users\migue\OneDrive\Documentos\ADC\10-Tareas-Relacion-2doParcial\03-Practicas\01-key00\key0\synlog\key00_key0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top key00 -multisrs ..\synwork\key00_key0_comp.srs -osyn ..\synwork\key00_key0_mult.srs -log ..\synlog\key00_key0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\key00_key0_comp.srs|io:i|time:1651535235|size:9488|exec:0|csum:C11D2D3D83D9BF295C5A5A7E7A402FC6
+file:..\synwork\key00_key0_mult.srs|io:o|time:1651535237|size:3111|exec:0|csum:
+file:..\synlog\key00_key0_multi_srs_gen.srr|io:o|time:1651535237|size:1192|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603988322|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

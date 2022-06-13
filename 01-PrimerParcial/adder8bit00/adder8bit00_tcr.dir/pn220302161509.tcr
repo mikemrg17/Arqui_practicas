@@ -1,0 +1,30 @@
+#Start recording tcl command: 3/2/2022 12:19:44
+#Project Location: C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00; Project name: adder8bit00
+prj_project new -name "adder8bit00" -impl "adder8bit0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/xor00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/and00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/packageha00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/ha00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/or00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/packagefa00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/fa00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/xnor00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/packageadder8bit00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/adder8bit00.vhdl"
+prj_run Export -impl adder8bit0 -task Jedecgen
+prj_run Export -impl adder8bit0 -task Jedecgen
+pgr_project save "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/adder8bit0/adder8bit0.xcf"
+prj_src add -exclude "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/adder8bit0/adder8bit0.xcf"
+prj_src enable "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/adder8bit0/adder8bit0.xcf"
+pgr_program run
+pgr_project save "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/adder8bit0/adder8bit0.xcf"
+prj_run Export -impl adder8bit0 -task Jedecgen
+pgr_project save "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/adder8bit0/adder8bit0.xcf"
+pgr_project close
+pgr_project open "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/adder8bit0/adder8bit0.xcf"
+pgr_program run
+pgr_project save "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder8bit00/adder8bit0/adder8bit0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 3/2/2022 16:15:09

@@ -1,0 +1,13 @@
+#Start recording tcl command: 3/14/2022 08:23:21
+#Project Location: C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/barrelRL00; Project name: barrelRL00
+prj_project new -name "barrelRL00" -impl "barrelRL0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/10_osc00_VHDL/div00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/10_osc00_VHDL/osc00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/10_osc00_VHDL/oscint00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/10_osc00_VHDL/packageOsc00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/barrelRL00/barrelRL0/source"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/barrelRL00/barrelRL0/source/div00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/barrelRL00/barrelRL0/source/osc00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/barrelRL00/barrelRL0/source/oscint00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/barrelRL00/barrelRL0/source/packageOsc00.vhd"
+prj_project save
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/barrelRL00/barrelRL.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/barrelRL00/packagebarrelRL00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/barrelRL00/barrelRL00.vhdl"
+prj_run Export -impl barrelRL0 -task Jedecgen
+prj_run Export -impl barrelRL0 -task Jedecgen
+prj_run Export -impl barrelRL0 -task Jedecgen
+#Stop recording: 3/14/2022 22:28:22

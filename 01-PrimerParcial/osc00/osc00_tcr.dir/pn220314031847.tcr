@@ -1,0 +1,9 @@
+#Start recording tcl command: 3/14/2022 02:55:08
+#Project Location: C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/osc00; Project name: osc00
+prj_project new -name "osc00" -impl "osc0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/osc00/oscint00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/osc00/diiv00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 3/14/2022 03:18:47

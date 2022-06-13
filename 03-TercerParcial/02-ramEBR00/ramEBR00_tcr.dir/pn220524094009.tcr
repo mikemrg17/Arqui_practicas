@@ -1,0 +1,25 @@
+#Start recording tcl command: 5/23/2022 10:53:30
+#Project Location: C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00; Project name: ramEBR00
+prj_project new -name "ramEBR00" -impl "ramEBR0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/00_osc00_VHDL/div00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/00_osc00_VHDL/osc00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/00_osc00_VHDL/oscint00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/00_osc00_VHDL/packageOsc00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ramEBR0/source"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ramEBR0/source/div00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ramEBR0/source/osc00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ramEBR0/source/oscint00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ramEBR0/source/packageOsc00.vhd"
+prj_project save
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/contRead00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ram_EBR_00.vhdl"
+prj_src remove "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ram_EBR_00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ram_EBR_00.ipx"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/packageramEBR00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ramEBR00.vhdl"
+prj_run Export -impl ramEBR0 -task Jedecgen
+prj_run Export -impl ramEBR0 -task Jedecgen
+pgr_project save "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ramEBR0/ramEBR0.xcf"
+prj_src add -exclude "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ramEBR0/ramEBR0.xcf"
+prj_src enable "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ramEBR0/ramEBR0.xcf"
+pgr_program run
+pgr_project save "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ramEBR0/ramEBR0.xcf"
+prj_run Export -impl ramEBR0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ramEBR0/ramEBR0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 5/24/2022 09:40:09

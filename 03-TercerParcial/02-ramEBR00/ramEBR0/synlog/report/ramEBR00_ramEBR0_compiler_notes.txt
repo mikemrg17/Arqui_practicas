@@ -1,0 +1,24 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\ramEBR00.vhdl":7:7:7:14|Top entity is set to ramEBR00.
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\ramEBR00.vhdl":7:7:7:14|Synthesizing work.ramebr00.ramebr0.
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\ram_EBR_00.vhd":14:7:14:16|Synthesizing work.ram_ebr_00.structure.
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":1699:10:1699:14|Synthesizing work.dp8kc.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":1490:10:1490:12|Synthesizing work.vlo.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":1483:10:1483:12|Synthesizing work.vhi.syn_black_box.
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\contRead00.vhdl":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\contRead00.vhdl":31:4:31:12|Removing redundant assignment.
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\ramEBR0\source\osc00.vhd":10:7:10:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\ramEBR0\source\div00.vhd":9:7:9:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\ramEBR0\source\div00.vhd":30:6:30:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\ramEBR0\source\div00.vhd":39:6:39:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\ramEBR0\source\div00.vhd":48:6:48:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\ramEBR0\source\div00.vhd":57:6:57:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\ramEBR0\source\div00.vhd":66:6:66:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\ramEBR0\source\div00.vhd":75:6:75:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\ramEBR0\source\div00.vhd":84:6:84:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\ramEBR0\source\div00.vhd":93:6:93:11|Removing redundant assignment.
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\ramEBR0\source\oscint00.vhd":8:7:8:14|Synthesizing work.oscint00.oscint0.
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
+

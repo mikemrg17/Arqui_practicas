@@ -1,0 +1,7 @@
+#Start recording tcl command: 5/2/2022 11:13:51
+#Project Location: C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00; Project name: ram00
+prj_project open "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/ram00.ldf"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/contRead00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 5/2/2022 18:40:13

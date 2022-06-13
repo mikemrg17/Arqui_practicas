@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "oscVHDL00_oscVHDL00.log"
+-o "oscVHDL00_oscVHDL00.csv"
+-pr "oscVHDL00_oscVHDL00.prf"

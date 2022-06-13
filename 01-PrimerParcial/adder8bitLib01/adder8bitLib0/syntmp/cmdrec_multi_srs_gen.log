@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  adder8bitLib01  -multisrs  C:\Users\migue\OneDrive\Documentos\ADC\04-3CM12-projectdiamon-1erParcial\adder8bitLib01\adder8bitLib0\synwork\adder8bitLib01_adder8bitLib0_comp.srs  -osyn  C:\Users\migue\OneDrive\Documentos\ADC\04-3CM12-projectdiamon-1erParcial\adder8bitLib01\adder8bitLib0\synwork\adder8bitLib01_adder8bitLib0_mult.srs  -log  C:\Users\migue\OneDrive\Documentos\ADC\04-3CM12-projectdiamon-1erParcial\adder8bitLib01\adder8bitLib0\synlog\adder8bitLib01_adder8bitLib0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top adder8bitLib01 -multisrs ..\synwork\adder8bitLib01_adder8bitLib0_comp.srs -osyn ..\synwork\adder8bitLib01_adder8bitLib0_mult.srs -log ..\synlog\adder8bitLib01_adder8bitLib0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\adder8bitLib01_adder8bitLib0_comp.srs|io:i|time:1646935700|size:1952|exec:0|csum:823BD7F80B0DC7F5370DE2EA80C48D29
+file:..\synwork\adder8bitLib01_adder8bitLib0_mult.srs|io:o|time:1646935702|size:1627|exec:0|csum:
+file:..\synlog\adder8bitLib01_adder8bitLib0_multi_srs_gen.srr|io:o|time:1646935702|size:1049|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603988322|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

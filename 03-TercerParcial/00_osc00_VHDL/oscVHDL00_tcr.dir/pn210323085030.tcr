@@ -1,0 +1,11 @@
+#Start recording tcl command: 3/23/2021 08:41:26
+#Project Location: D:/ISC/Semestre 2021-1/Arquitectura de Computadoras/practicas/00_osc00VHDL; Project name: oscVHDL00
+prj_project new -name "oscVHDL00" -impl "oscVHDL00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "D:/ISC/Semestre 2021-1/Arquitectura de Computadoras/practicas/00_osc00VHDL/oscint00.vhd"
+prj_src add "D:/ISC/Semestre 2021-1/Arquitectura de Computadoras/practicas/00_osc00VHDL/div00.vhd"
+prj_src add "D:/ISC/Semestre 2021-1/Arquitectura de Computadoras/practicas/00_osc00VHDL/packageOsc00.vhd"
+prj_src add "D:/ISC/Semestre 2021-1/Arquitectura de Computadoras/practicas/00_osc00VHDL/osc00.vhd"
+prj_project save
+prj_project close
+#Stop recording: 3/23/2021 08:50:30

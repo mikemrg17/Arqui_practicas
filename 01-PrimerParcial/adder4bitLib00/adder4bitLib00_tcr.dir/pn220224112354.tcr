@@ -1,0 +1,10 @@
+#Start recording tcl command: 2/24/2022 10:55:09
+#Project Location: C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder4bitLib00; Project name: adder4bitLib00
+prj_project new -name "adder4bitLib00" -impl "adder4bitLib0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+pgr_project close
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/04-3CM12-projectdiamon-1erParcial/adder4bitLib00/adder4bitLib00.vhdl"
+prj_run Export -impl adder4bitLib0 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 2/24/2022 11:23:54

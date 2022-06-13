@@ -1,0 +1,2 @@
+@W: FA239 :"c:\users\migue\onedrive\documentos\adc\03-3cm12-3erparcial\01-practicas\03-fsmmoore00\memrom00.vhdl":51:10:51:16|ROM FS02.outro_1[5:0] (in view: work.fsmmoore00(fsmmoore0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: MT420 |Found inferred clock oscint00|osc_int0_inferred_clock with period 480.77ns. Please declare a user-defined clock on net FS00.C00.clkaux.

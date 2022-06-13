@@ -1,0 +1,5 @@
+@W: CG296 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\contRead00.vhdl":24:10:24:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\contRead00.vhdl":27:7:27:16|Referenced variable scontrolcr is not in sensitivity list.
+@W: CL113 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\02-ramEBR00\contRead00.vhdl":27:2:27:5|Feedback mux created for signal outcontcr[5:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

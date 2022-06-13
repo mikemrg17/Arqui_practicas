@@ -1,0 +1,88 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.12\synpbase
+Hostname:    DESKTOP-VTJO39V
+Date:        Mon Mar 14 03:19:53 2022
+Version:     Q-2020.03L-SP1
+
+Arguments:   -product synplify_pro -batch oscVHDL00_oscVHDL00_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "E:\BackUp\Practices\Practicas_Arqui_Comp-main\Parcial01\00_osc00VHDL\oscVHDL00\oscVHDL00_oscVHDL00.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+hdl_info_gen completed
+# Mon Mar 14 03:19:55 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+log file: "E:\BackUp\Practices\Practicas_Arqui_Comp-main\Parcial01\00_osc00VHDL\oscVHDL00\oscVHDL00_oscVHDL00.srr"
+Running: oscVHDL00 in foreground
+
+Running proj_1|oscVHDL00
+
+Running Flow: compile (Compile) on proj_1|oscVHDL00
+# Mon Mar 14 03:19:56 2022
+
+Running Flow: compile_flow (Compile Process) on proj_1|oscVHDL00
+# Mon Mar 14 03:19:56 2022
+
+Running: compiler (Compile Input) on proj_1|oscVHDL00
+# Mon Mar 14 03:19:56 2022
+Copied E:\BackUp\Practices\Practicas_Arqui_Comp-main\Parcial01\00_osc00VHDL\oscVHDL00\synwork\oscVHDL00_oscVHDL00_comp.srs to E:\BackUp\Practices\Practicas_Arqui_Comp-main\Parcial01\00_osc00VHDL\oscVHDL00\oscVHDL00_oscVHDL00.srs
+
+compiler completed
+# Mon Mar 14 03:20:03 2022
+
+Return Code: 0
+Run Time:00h:00m:07s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|oscVHDL00
+# Mon Mar 14 03:20:03 2022
+
+multi_srs_gen completed
+# Mon Mar 14 03:20:04 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied E:\BackUp\Practices\Practicas_Arqui_Comp-main\Parcial01\00_osc00VHDL\oscVHDL00\synwork\oscVHDL00_oscVHDL00_mult.srs to E:\BackUp\Practices\Practicas_Arqui_Comp-main\Parcial01\00_osc00VHDL\oscVHDL00\oscVHDL00_oscVHDL00.srs
+Copied E:\BackUp\Practices\Practicas_Arqui_Comp-main\Parcial01\00_osc00VHDL\oscVHDL00\oscVHDL00_oscVHDL00.srr to E:\BackUp\Practices\Practicas_Arqui_Comp-main\Parcial01\00_osc00VHDL\oscVHDL00\oscVHDL00_oscVHDL00.srf
+Complete: Compile Process on proj_1|oscVHDL00
+
+Running: premap (Premap) on proj_1|oscVHDL00
+# Mon Mar 14 03:20:04 2022
+
+premap completed with warnings
+# Mon Mar 14 03:20:09 2022
+
+Return Code: 1
+Run Time:00h:00m:05s
+Complete: Compile on proj_1|oscVHDL00
+
+Running Flow: map (Map) on proj_1|oscVHDL00
+# Mon Mar 14 03:20:09 2022
+
+Running: fpga_mapper (Map & Optimize) on proj_1|oscVHDL00
+# Mon Mar 14 03:20:09 2022
+Copied E:\BackUp\Practices\Practicas_Arqui_Comp-main\Parcial01\00_osc00VHDL\oscVHDL00\synwork\oscVHDL00_oscVHDL00_m.srm to E:\BackUp\Practices\Practicas_Arqui_Comp-main\Parcial01\00_osc00VHDL\oscVHDL00\oscVHDL00_oscVHDL00.srm
+
+fpga_mapper completed with warnings
+# Mon Mar 14 03:20:15 2022
+
+Return Code: 1
+Run Time:00h:00m:06s
+Complete: Map on proj_1|oscVHDL00
+Copied E:\BackUp\Practices\Practicas_Arqui_Comp-main\Parcial01\00_osc00VHDL\oscVHDL00\oscVHDL00_oscVHDL00.srr to E:\BackUp\Practices\Practicas_Arqui_Comp-main\Parcial01\00_osc00VHDL\oscVHDL00\oscVHDL00_oscVHDL00.srf
+Complete: Logic Synthesis on proj_1|oscVHDL00
+TCL script complete: "oscVHDL00_oscVHDL00_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+E:\BackUp\Practices\Practicas_Arqui_Comp-main\Parcial01\00_osc00VHDL\oscVHDL00\proj_1.prj
+batch mode default:no

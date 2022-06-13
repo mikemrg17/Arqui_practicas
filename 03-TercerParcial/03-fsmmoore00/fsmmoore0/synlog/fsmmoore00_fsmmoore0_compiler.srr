@@ -1,0 +1,153 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VTJO39V
+
+Implementation : fsmmoore0
+Synopsys HDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VTJO39V
+
+Implementation : fsmmoore0
+Synopsys VHDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore00.vhdl":7:7:7:16|Top entity is set to fsmmoore00.
+File C:\lscc\diamond\3.12\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\source\oscint00.vhd changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\source\packageOsc00.vhd changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\contRead00.vhdl changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\memrom00.vhdl changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsm00.vhdl changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\packagefsm00.vhdl changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\source\osc00.vhd changed - recompiling
+File C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore00.vhdl changed - recompiling
+VHDL syntax check successful!
+File C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\memrom00.vhdl changed - recompiling
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore00.vhdl":7:7:7:16|Synthesizing work.fsmmoore00.fsmmoore0.
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsm00.vhdl":6:7:6:11|Synthesizing work.fsm00.fsm0.
+@N: CD231 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsm00.vhdl":16:13:16:14|Using onehot encoding for type estados. For example, enumeration a is mapped to "10000000".
+@W: CG296 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsm00.vhdl":46:6:46:12|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsm00.vhdl":54:9:54:13|Referenced variable e_act is not in sensitivity list.
+@W: CG290 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsm00.vhdl":49:7:49:11|Referenced variable enfsm is not in sensitivity list.
+Post processing for work.fsm00.fsm0
+Running optimization stage 1 on fsm00 .......
+@W: CL117 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsm00.vhdl":49:2:49:5|Latch generated from process for signal outfsm(2 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsm00.vhdl":49:2:49:5|Latch generated from process for signal E_sig(0 to 7); possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\memrom00.vhdl":8:7:8:14|Synthesizing work.memrom00.memrom0.
+Post processing for work.memrom00.memrom0
+Running optimization stage 1 on memrom00 .......
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\contRead00.vhdl":8:7:8:16|Synthesizing work.contread00.contread0.
+Post processing for work.contread00.contread0
+Running optimization stage 1 on contRead00 .......
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\source\osc00.vhd":10:7:10:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\source\div00.vhd":9:7:9:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\source\div00.vhd":30:6:30:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\source\div00.vhd":39:6:39:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\source\div00.vhd":48:6:48:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\source\div00.vhd":57:6:57:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\source\div00.vhd":66:6:66:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\source\div00.vhd":75:6:75:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\source\div00.vhd":84:6:84:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\source\div00.vhd":93:6:93:11|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\source\oscint00.vhd":8:7:8:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.fsmmoore00.fsmmoore0
+Running optimization stage 1 on fsmmoore00 .......
+Running optimization stage 2 on oscint00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on contRead00 .......
+@N: CL189 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\contRead00.vhdl":21:2:21:3|Register bit outcontcr(4) is always 0.
+@N: CL189 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\contRead00.vhdl":21:2:21:3|Register bit outcontcr(5) is always 0.
+@W: CL279 :"C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\contRead00.vhdl":21:2:21:3|Pruning register bits 5 to 4 of outcontcr(5 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on memrom00 .......
+Running optimization stage 2 on fsm00 .......
+Running optimization stage 2 on fsmmoore00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 97MB peak: 100MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jun  6 15:50:26 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-VTJO39V
+
+Implementation : fsmmoore0
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+File C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jun  6 15:50:27 2022
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\03-fsmmoore00\fsmmoore0\synwork\fsmmoore00_fsmmoore0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jun  6 15:50:27 2022
+
+###########################################################]

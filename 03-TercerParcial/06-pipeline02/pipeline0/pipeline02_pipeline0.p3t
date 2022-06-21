@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "pipeline02_pipeline0.log"
+-o "pipeline02_pipeline0.csv"
+-pr "pipeline02_pipeline0.prf"

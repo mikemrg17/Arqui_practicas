@@ -1,0 +1,109 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\pipeline0\\synwork\\pipeline01_pipeline0_comp.srs|-top|pipeline01|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1603988322
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\location.map":1604359580
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std1164.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\numeric.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\arith.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\unsigned.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542263532
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\pipeline0\\source\\div00.vhd":1637723652
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\pipeline0\\source\\oscint00.vhd":1637723652
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\pipeline0\\source\\packageOsc00.vhd":1637723652
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\pc00.vhdl":1655449423
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\fi00.vhdl":1655395412
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\di00.vhdl":1654565742
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\co00.vhdl":1654565771
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\fo00.vhdl":1654565826
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\eo00.vhdl":1654565851
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\wr00.vhdl":1654565880
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\fsmpipe02.vhdl":1654565910
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\packagepipeline01.vhdl":1655172723
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\pipeline0\\source\\osc00.vhd":1647262160
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\memEBR00.vhd":1655173745
+#CUR:"C:\\Users\\migue\\OneDrive\\Documentos\\ADC\\03-3CM12-3erParcial\\01-Practicas\\05-pipeline01\\pipeline01.vhdl":1655272220
+0 "C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\pipeline0\source\div00.vhd" vhdl
+2 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\pipeline0\source\oscint00.vhd" vhdl
+3 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\pipeline0\source\packageOsc00.vhd" vhdl
+4 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\pc00.vhdl" vhdl
+5 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\fi00.vhdl" vhdl
+6 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\di00.vhdl" vhdl
+7 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\co00.vhdl" vhdl
+8 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\fo00.vhdl" vhdl
+9 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\eo00.vhdl" vhdl
+10 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\wr00.vhdl" vhdl
+11 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\fsmpipe02.vhdl" vhdl
+12 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\packagepipeline01.vhdl" vhdl
+13 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\pipeline0\source\osc00.vhd" vhdl
+14 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\memEBR00.vhd" vhdl
+15 "C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\pipeline01.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 2 1 3 
+14 0 
+15 13 4 14 5 6 7 8 9 10 11 12 
+
+# Dependency Lists (Users Of)
+0 14 
+1 13 
+2 13 
+3 13 
+4 15 
+5 15 
+6 15 
+7 15 
+8 15 
+9 15 
+10 15 
+11 15 
+12 15 
+13 15 
+14 15 
+15 -1
+
+# Design Unit to File Association
+arch work div00 div0 1
+module work div00 1
+arch work oscint00 oscint0 2
+module work oscint00 2
+arch work pc00 pc0 4
+module work pc00 4
+arch work fi00 fi0 5
+module work fi00 5
+arch work di00 di0 6
+module work di00 6
+arch work co00 co0 7
+module work co00 7
+arch work fo00 fo0 8
+module work fo00 8
+arch work eo00 eo0 9
+module work eo00 9
+arch work wr00 wr0 10
+module work wr00 10
+arch work fsmpipe02 fsmpipe0 11
+module work fsmpipe02 11
+arch work osc00 osc0 13
+module work osc00 13
+config work structure_con 14
+arch work memebr00 structure 14
+module work memebr00 14
+arch work pipeline01 pipeline0 15
+module work pipeline01 15

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  pipeline01  -multisrs  C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\pipeline0\synwork\pipeline01_pipeline0_comp.srs  -osyn  C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\pipeline0\synwork\pipeline01_pipeline0_mult.srs  -log  C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\pipeline0\synlog\pipeline01_pipeline0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top pipeline01 -multisrs ..\synwork\pipeline01_pipeline0_comp.srs -osyn ..\synwork\pipeline01_pipeline0_mult.srs -log ..\synlog\pipeline01_pipeline0_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\pipeline01_pipeline0_comp.srs|io:i|time:1655449440|size:22865|exec:0|csum:E139C0AE792BD9F5866F39E038EFF126
+file:..\synwork\pipeline01_pipeline0_mult.srs|io:o|time:1655449443|size:5515|exec:0|csum:
+file:..\synlog\pipeline01_pipeline0_multi_srs_gen.srr|io:o|time:1655449443|size:1207|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603988322|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

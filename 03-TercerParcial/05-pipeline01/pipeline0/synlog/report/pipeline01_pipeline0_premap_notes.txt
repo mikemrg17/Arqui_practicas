@@ -1,0 +1,14 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "0" on instance var0.
+@N: BN362 :"c:\users\migue\onedrive\documentos\adc\03-3cm12-3erparcial\01-practicas\05-pipeline01\pc00.vhdl":28:2:28:3|Removing sequential instance outFlagpc (in view: work.pc00(pc0)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: FX493 |Applying initial value "1" on instance aux01[6].
+@N: FX493 |Applying initial value "0" on instance aux01[5].
+@N: FX493 |Applying initial value "0" on instance aux01[4].
+@N: FX493 |Applying initial value "0" on instance aux01[3].
+@N: FX493 |Applying initial value "0" on instance aux01[2].
+@N: FX493 |Applying initial value "0" on instance aux01[1].
+@N: FX493 |Applying initial value "0" on instance aux01[0].
+@N: FX1184 |Applying syn_allowed_resources blockrams=26 on top level netlist pipeline01 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

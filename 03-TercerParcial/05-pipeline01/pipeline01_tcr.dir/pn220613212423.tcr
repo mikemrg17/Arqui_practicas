@@ -1,0 +1,37 @@
+#Start recording tcl command: 6/13/2022 14:52:01
+#Project Location: C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/05-pipeline01; Project name: pipeline01
+C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00
+ramEBR00
+#Start recording tcl command: 6/13/2022 21:24:20
+#Project Location: C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00; Project name: ramEBR00
+prj_project open "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/05-pipeline01/pipeline01.ldf"
+prj_run Export -impl pipeline0 -task Jedecgen
+pgr_project open "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/05-pipeline01/pipeline0/pipeline0.xcf"
+pgr_program set -cable 
+pgr_program run
+pgr_project save "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/05-pipeline01/pipeline0/pipeline0.xcf"
+prj_run Export -impl pipeline0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/05-pipeline01/pipeline0/pipeline0.xcf"
+prj_run Export -impl pipeline0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/05-pipeline01/pipeline0/pipeline0.xcf"
+prj_run Export -impl pipeline0 -task Jedecgen
+pgr_project save "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/05-pipeline01/pipeline0/pipeline0.xcf"
+pgr_project close
+pgr_project open "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/05-pipeline01/pipeline0/pipeline0.xcf"
+pgr_program run
+prj_run Export -impl pipeline0 -task Jedecgen
+pgr_program run
+prj_run Export -impl pipeline0 -task Jedecgen
+prj_run Export -impl pipeline0 -task Jedecgen
+pgr_program run
+prj_run Export -impl pipeline0 -task Jedecgen
+pgr_program run
+prj_run Export -impl pipeline0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/05-pipeline01/pipeline0/pipeline0.xcf"
+prj_project save
+prj_project close
+prj_project open "C:/Users/migue/OneDrive/Documentos/ADC/03-3CM12-3erParcial/01-Practicas/02-ramEBR00/ramEBR00.ldf"
+#Stop recording: 6/13/2022 21:24:23

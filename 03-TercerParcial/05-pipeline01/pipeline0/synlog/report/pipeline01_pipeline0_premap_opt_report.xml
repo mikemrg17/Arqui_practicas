@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the optimization information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="3" name="Optimizations Summary">
+<parameter tooltip="Non-gated/non-generated clock trees / Gated/generated clock trees" name="Combined Clock Conversion">
+<data>1 / 2</data>
+<report_link name="more">
+<data>C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\pipeline0\synlog\report\pipeline01_pipeline0_premap_combined_clk.rpt</data>
+<title>START OF CLOCK OPTIMIZATION REPORT</title>
+</report_link>
+</parameter>
+</report_table>

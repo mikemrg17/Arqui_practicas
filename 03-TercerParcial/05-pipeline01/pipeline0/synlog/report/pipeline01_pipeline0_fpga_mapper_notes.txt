@@ -1,0 +1,11 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FA113 :"c:\users\migue\onedrive\documentos\adc\03-3cm12-3erparcial\01-practicas\05-pipeline01\pc00.vhdl":51:15:51:25|Pipelining module un1_outpc[6:1]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\users\migue\onedrive\documentos\adc\03-3cm12-3erparcial\01-practicas\05-pipeline01\pc00.vhdl":28:2:28:3|Pushed in register outpc[5:0].
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\05-pipeline01\pipeline0\pipeline01_pipeline0.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock div00|oscOut_derived_clock with period 480.77ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

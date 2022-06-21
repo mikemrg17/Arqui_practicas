@@ -1,0 +1,123 @@
+---------------------------------------------------
+Report for cell pipeline02
+   Instance path: pipeline02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      77.00        100.0
+                                 IOLGC	      12.00        100.0
+                                  LUT4	      97.00        100.0
+                                 IOREG	         12        100.0
+                                 IOBUF	         40        100.0
+                                PFUREG	        137        100.0
+                                RIPPLE	         16        100.0
+                                   EBR	          1        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                  wr00	          1         8.4
+                                  pc00	          1         9.4
+                                 osc00	          1        30.6
+                              memEBR00	          1         0.0
+                                  co00	          1         7.3
+                                  eo00	          1        10.2
+                                  fo00	          1         6.7
+                             fsmpipe02	          1        13.4
+                                  fi00	          1         6.8
+                                  di00	          1         7.1
+---------------------------------------------------
+Report for cell fsmpipe02
+   Instance path: pipeline02/FSM09
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      10.33        13.4
+                                  LUT4	      29.00        29.9
+                                PFUREG	         10         7.3
+---------------------------------------------------
+Report for cell wr00
+   Instance path: pipeline02/FSM08
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.50         8.4
+                                  LUT4	       2.00         2.1
+                                PFUREG	         10         7.3
+---------------------------------------------------
+Report for cell eo00
+   Instance path: pipeline02/FSM07
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.83        10.2
+                                  LUT4	       3.00         3.1
+                                PFUREG	         17        12.4
+---------------------------------------------------
+Report for cell fo00
+   Instance path: pipeline02/FSM06
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.17         6.7
+                                  LUT4	       3.00         3.1
+                                PFUREG	         17        12.4
+---------------------------------------------------
+Report for cell co00
+   Instance path: pipeline02/FSM05
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.58         7.3
+                                  LUT4	       3.00         3.1
+                                PFUREG	         17        12.4
+---------------------------------------------------
+Report for cell di00
+   Instance path: pipeline02/FSM04
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.50         7.1
+                                  LUT4	       3.00         3.1
+                                PFUREG	         17        12.4
+---------------------------------------------------
+Report for cell fi00
+   Instance path: pipeline02/FSM03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.25         6.8
+                                  LUT4	       3.00         3.1
+                                PFUREG	         17        12.4
+---------------------------------------------------
+Report for cell memEBR00
+   Instance path: pipeline02/FSM02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        100.0
+---------------------------------------------------
+Report for cell pc00
+   Instance path: pipeline02/FSM01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.25         9.4
+                                  LUT4	       7.00         7.2
+                                PFUREG	          9         6.6
+                                RIPPLE	          4        25.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: pipeline02/FSM00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.58        30.6
+                                  LUT4	      44.00        45.4
+                                PFUREG	         23        16.8
+                                RIPPLE	         12        75.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              oscint00	          1         0.0
+                                 div00	          1        30.6
+---------------------------------------------------
+Report for cell div00
+   Instance path: pipeline02/FSM00/C01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.58        30.6
+                                  LUT4	      44.00        45.4
+                                PFUREG	         23        16.8
+                                RIPPLE	         12        75.0
+---------------------------------------------------
+Report for cell oscint00
+   Instance path: pipeline02/FSM00/C00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\migue\OneDrive\Documentos\ADC\03-3CM12-3erParcial\01-Practicas\06-pipeline02\pipeline0\synlog\pipeline02_pipeline0_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>div00|oscOut_derived_clock</data>
+<data>2.1 MHz</data>
+<data>272.1 MHz</data>
+<data>954.189</data>
+</row>
+<row>
+<data>oscint00|osc_int0_inferred_clock</data>
+<data>2.1 MHz</data>
+<data>69.8 MHz</data>
+<data>466.444</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>479.171</data>
+</row>
+</report_table>
